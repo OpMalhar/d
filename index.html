@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>Pizza</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><ul class="menu">
+        <li class="link"><a href="#Pizzeria" style="color: gold;"> Pizzeria</a></li>
+        <li class="link"><a href="#addmenu" style="color: gold;"> addmenu</a></li>
+        <li class="link"><a href="#viewmenu" style="color: gold;">viewmenu</a></li></ul></header>
+        <center>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div  class="col-md-4 col-sm-12 col-xs-12">
+        <img src="Chessy.jpg" >
+     </div>
+     <br>
+     <br>
+    <br>
+    <br>
+    <br>
+    
+    
+        <div  class="col-md-4 col-sm-12 col-xs-12"><div class="menudiv">
+        
+            <button id="menulist" onclick="getmenu()" class="btn btn-warning">Show Menu</button>
+            <div class="block2">
+                <div id="Pizza1">
+                </div>
+                <div id="Pizza2">
+                </div>
+                <div id="Pizza3">
+                </div>
+                <div id="Pizza4">
+                </div>
+            </div>
+        </div>
+        
+    </center>
+    <section id="viewmenu">
+        <input id="tb" type="text" placeholder="enter a new topping name">
+        <div id="display_addedmenu">
+            <div id="divide">
+            </div>
+            </div>
+        <button id="id" onclick="addmenu()">Recommend A New Pizza</button>
+    </section>
+<script src="main.js">
+</script>
+</body>
+</html>
